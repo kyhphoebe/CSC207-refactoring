@@ -1,4 +1,6 @@
-2de6a23 (HEAD -> main, origin/main, origin/HEAD) Task 2.1
+4b47f98 (HEAD -> main, origin/main, origin/HEAD) Task 2.2
+56cd6ce Task 2.1
+2de6a23 Task 2.1
 d5d6d8c Task 1.1, second edit
 5663dc1 Task 1.2
 2681d0f Task 1.1
