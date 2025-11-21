@@ -1,2 +1,4 @@
-2681d0f (HEAD -> main, origin/main, origin/HEAD) Task 1.1
+d5d6d8c (HEAD -> main, origin/main, origin/HEAD) Task 1.1, second edit
+5663dc1 Task 1.2
+2681d0f Task 1.1
 700584f Initial commit
