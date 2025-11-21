@@ -1,4 +1,6 @@
-3cc6fe8 (HEAD -> main, origin/main, origin/HEAD) Task 2.4
+c2a90cb (HEAD -> main, origin/main, origin/HEAD) error edit
+8abda15 git log update
+3cc6fe8 Task 2.4
 ed3dbff Task 2.3
 4b47f98 Task 2.2
 56cd6ce Task 2.1
