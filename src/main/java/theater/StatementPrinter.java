@@ -19,9 +19,9 @@ public class StatementPrinter {
     /**
      * Returns a formatted statement of the invoice associated with this printer.
      * @return the formatted statement
-     * @throws RuntimeException if one of the play types is not known
+     * @throws UnknownPlayTypeException if one of the play types is not known
      */
-    public String statement() {
+    public String statement() throws UnknownPlayTypeException {
         int totalAmount = 0;
         int volumeCredits = 0;
         final StringBuilder result = new StringBuilder(
@@ -53,7 +53,7 @@ public class StatementPrinter {
                     thisAmount += Constants.COMEDY_AMOUNT_PER_AUDIENCE * p.getAudience();
                     break;
                 default:
-                    throw new RuntimeException(String.format("unknown type: %s", play.getType()));
+                    throw new UnknownPlayTypeException(play.getType());
             }
 
             // add volume credits
